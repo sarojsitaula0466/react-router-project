@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.landingPage {
+  width: 60%;
+  margin: 3rem auto;
+  background-color: lightgray;
+  border-radius: 5px;
+  padding: 2rem 0;
+}
+.newPost-wrapper {
+  background-color: orange;
+  border-radius: 5px;
+  width: 70%;
+  margin: auto;
+  margin: 2rem auto;
+  padding: 2rem;
+}
+.newPost-wrapper > div {
+  padding: 2rem 2rem;
+}
+
+/* .button-cancel {
+  background-color: darkgray;
+  border: none;
+  border-radius: 3px;
+  width: 15%;
+  height: 2rem;
+  line-height:2rem;
+
+} */
+
+.user-input-div {
+  background-color: lightgray;
+  border-radius: 5px;
+  margin: 0 2rem 2rem 0;
+}
+input {
+  margin-left: 10%;
+  width: 60%;
+  height: 2rem;
+  border: none;
+  border-radius: 5px;
+}
+
+textarea {
+  margin-left: 10%;
+  width: 60%;
+  height: 2rem;
+  border: none;
+  border-radius: 5px;
+}
+.textInput {
+  height: 8rem;
+  width: 30rem;
+}
+
+.post-page-container {
+  width: 70%;
+  margin: 4rem auto;
+  background-color: orange;
+  padding: 1rem 1rem;
+  border-radius: 5px;
+}
+
+.post-page-container > div {
+  padding: 2rem 2rem;
+  border: 1px solid darkgrey;
+  border-radius: 5px;
+  margin-bottom: 2rem;
+}
+
+.post-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.post-content-container > div {
+  padding: 1rem;
+}
+.posts {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem 1rem;
+  color: white;
+  background-color: orange;
+  border-radius: 5px;
+  margin: 0 2rem 2rem 2rem;
+  text-decoration: none;
+}
+.posts:hover {
+  color: green;
+}
+
+.addPost {
+  background-color: darkgrey;
+  text-align: right;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  width: 15%;
+  height: 2em;
+  text-align: center;
+  line-height: 2em;
+  font-size: 1rem;
+  margin: 2rem 0 4rem 2rem;
+}
+
+.post-title {
+  text-decoration: none;
+  padding-top: 2rem;
+  border-radius: 5px;
+  margin-bottom: 2rem;
+}
+
+.post-category {
+  text-decoration: none;
+  padding-top: 2rem;
+  border-radius: 5px;
+  margin-bottom: 2rem;
+}
+
+.post-text {
+  text-decoration: none;
+  background-color: lightgray;
+  border-radius: 5px;
+  margin-bottom: 2rem;
+}
+span {
+  margin-right: 75%;
+  font-size: 0.8em;
+}
+
+.test-link {
+  text-decoration: none;
+  padding: 5px;
+}
+
+.back-button {
+  background-color: darkgrey;
+  padding: 0.5rem 1rem;
+
+  border: none;
+}
+
+.delete-button {
+  background-color: darkgrey;
+  width: 15%;
+  height: 2rem;
+  border-radius: 5px;
+  line-height: 2rem;
+  border: none;
+}
+
+.buttons {
+  display: flex;
+}
+.buttonsInside {
+  padding: 0.5rem 1rem;
+  margin-right: 1rem;
+}
